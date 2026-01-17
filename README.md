@@ -8,6 +8,8 @@ Meta Business Suite SSL Pinning Bypass and intercept Meta Business Suite Traffic
 
 ## 🎥 Evidence 
 
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/312e89bd-3dff-4a9b-9238-e6c37b2eaf7c" />
+
 ▶️ [Watch the Demonstration](https://github.com/user-attachments/assets/238f2b6c-39d1-4fbc-bf43-6ee0190a7990)
 
 ---
