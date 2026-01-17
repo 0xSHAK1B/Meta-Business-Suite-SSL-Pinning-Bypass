@@ -17,7 +17,7 @@ Meta Business Suite SSL Pinning Bypass and intercept Meta Business Suite Traffic
 - **x86_64**
 ---
 ## Meta Business Suite App Version 
-- **534.0.0.54.109**
+- **536.1.0.41.435**
 ---
 
 ## 📱 Mobile Device Requirements
