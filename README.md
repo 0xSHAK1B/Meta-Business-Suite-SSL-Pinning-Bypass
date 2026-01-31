@@ -1,6 +1,6 @@
 # 🔐 SSL Pinning Bypass Meta Business Suite
 
-Meta Business Suite SSL Pinning Bypass and intercept Meta Business Suite Traffic.
+Meta Business Suite SSL Pinning Bypass for Android – intercept Meta Business Suite traffic.
 
 
 
