@@ -8,9 +8,9 @@ Meta Business Suite SSL Pinning Bypass for Android – intercept Meta Business S
 
 ## 🎥 Evidence 
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/312e89bd-3dff-4a9b-9238-e6c37b2eaf7c" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/1758330a-4913-4660-af79-40b39a67fdde" />
 
-▶️ [Watch the Demonstration](https://github.com/user-attachments/assets/e1cca0af-0594-4dbc-a069-1ccd8e3b38cc)
+▶️ [Watch the Demonstration](https://github.com/user-attachments/assets/a831ec42-9dba-4a43-bfcc-a2d2a185ef03)
 
 ---
 
@@ -19,7 +19,7 @@ Meta Business Suite SSL Pinning Bypass for Android – intercept Meta Business S
 - **x86_64**
 ---
 ## Meta Business Suite App Version 
-- **536.1.0.41.435**
+- **538.0.0.21.106**
 ---
 
 ## 📱 Mobile Device Requirements
