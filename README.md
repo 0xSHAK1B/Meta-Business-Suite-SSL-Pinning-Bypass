@@ -1,32 +1,147 @@
-# 🔐 SSL Pinning Bypass Meta Business Suite
+# Meta Business Suite SSL Pinning Bypass for Android (2026) – Intercept & Capture HTTPS Traffic
 
-Meta Business Suite SSL Pinning Bypass for Android – intercept Meta Business Suite traffic.
+[![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
+![ARM64](https://img.shields.io/badge/ARM64--v8a-Supported-blue?style=for-the-badge)
+![x86_64](https://img.shields.io/badge/x86__64-Supported-blue?style=for-the-badge)
 
-
+> Bypass Meta Business Suite SSL certificate pinning on Android by patching `libstartup.so` — intercept, inspect, and analyze HTTPS network traffic on both **rooted** and **non-rooted** devices.
 
 ---
 
-## 🎥 Evidence 
+## 📖 Overview
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/583f8714-7a4d-4eb1-946f-1d5c33ae91ee" />
+This project provides a **patched `libstartup.so`** library for the Meta Business Suite Android app with SSL/TLS certificate pinning disabled, enabling security researchers and developers to capture and analyze Meta Business Suite HTTPS traffic using standard MITM proxy tools.
 
-▶️ [Watch the Demonstration](https://github.com/user-attachments/assets/d285e3d9-a9bf-46f4-9c55-d1daa746c2be)
+**Key highlights:**
+
+- ✅ Works on rooted and non-rooted Android devices
+- ✅ Compatible with Android emulators (Nox, LDPlayer)
+- ✅ Works with popular proxy tools (Burp Suite, Mitmproxy, Reqable, Proxypin)
+- ✅ **ARM64-v8a** & **x86_64** architecture support
+- ✅ Simple library replacement — no full APK repackaging needed
+
+---
+
+## 🎥 Proof of Concept
+
+<img width="720" height="1640" alt="Meta Business Suite SSL Pinning Bypass - Traffic Interception Screenshot" src="https://github.com/user-attachments/assets/583f8714-7a4d-4eb1-946f-1d5c33ae91ee" />
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/d285e3d9-a9bf-46f4-9c55-d1daa746c2be)
+
+---
+
+## 📋 Supported Meta Business Suite Version
+
+| App | Version | Patched Library | Status |
+|-----|---------|-----------------|--------|
+| Meta Business Suite | **539.0.0.47.107** | `libstartup.so` | ✅ Bypassed |
+
+> For the **latest patched `libstartup.so`**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
 ---
 
 ## ⚙️ Supported Architectures
-- **arm64-v8a**
-- **x86_64**
----
-## Meta Business Suite App Version 
-- **539.0.0.47.107**
+
+| Architecture | Support |
+|---|---|
+| `arm64-v8a` | ✅ |
+| `x86_64` | ✅ |
+
 ---
 
-## 📱 Mobile Device Requirements
-- Android device (**Rooted** or **Non-Rooted**)
-- One of the following traffic interception tools:
-  - [Proxypin](https://proxypin.com)
+## 📱 Requirements
+
+### Option A: Physical Android Device
+
+- Android phone or tablet (**rooted or non-rooted**)
+- A traffic interception proxy tool:
+  - [Proxypin](https://proxypin.com) — free, lightweight
+  - [Reqable](https://reqable.com) — feature-rich, modern UI
+
+### Option B: Android Emulator (PC)
+
+- Windows PC with one of the following emulators installed:
+  - [Nox Player](https://www.bignox.com/) — root access enabled
+  - [LDPlayer](https://www.ldplayer.net/) — root access enabled
+- A desktop MITM proxy tool:
+  - [Burp Suite](https://portswigger.net/burp) — industry standard
+  - [Mitmproxy](https://mitmproxy.org/) — open source
   - [Reqable](https://reqable.com)
+  - [Proxypin](https://proxypin.com)
+
+> **Note:** Root access must be enabled in the emulator to replace the native library.
+
+---
+
+## 🚀 Bypass Procedure
+
+### Step 1 — Push the Patched Library
+
+Replace the original `libstartup.so` with the patched version using ADB:
+
+```bash
+adb push D:\patched\libstartup.so /data/data/com.facebook.pages.app/lib-compressed/libstartup.so
+```
+
+### Step 2 — Set Correct Permissions (if needed)
+
+```bash
+adb shell chmod 755 /data/data/com.facebook.pages.app/lib-compressed/libstartup.so
+```
+
+### Step 3 — Configure Your Proxy
+
+Set up your preferred MITM proxy tool (Proxypin, Reqable, Burp Suite, or Mitmproxy) and install/trust its CA certificate on the device or emulator.
+
+### Step 4 — Launch & Capture
+
+Open the Meta Business Suite app and start intercepting HTTPS requests and responses in your proxy tool.
+
+> **Tip:** Force-stop Meta Business Suite before launching it after the library replacement to ensure the patched library is loaded.
+
+---
+
+**Package name:** `com.facebook.pages.app`
+
+**Target path:**
+```
+/data/data/com.facebook.pages.app/lib-compressed/libstartup.so
+```
+
+---
+
+## ❓ FAQ
+
+**Q: Does this require root access?**
+A: On physical devices, it works on both rooted and non-rooted setups. On emulators, root access is needed to write to the app's private data directory.
+
+**Q: Will this work on iOS?**
+A: No. This bypass targets the Android version of Meta Business Suite only.
+
+**Q: Can I use this with Burp Suite?**
+A: Yes. Configure Burp Suite as a proxy, install the Burp CA certificate on your device/emulator, push the patched library, and launch Meta Business Suite.
+
+**Q: Do I need to repackage or re-sign the APK?**
+A: No. This method replaces only the native `.so` library — no APK modification or re-signing required.
+
+
+**Q: The patched version doesn't match the latest Meta Business Suite release — what do I do?**
+A: [Contact me on Telegram](https://t.me/MUH4MM4DSH4KIB) for the latest patched `libstartup.so`.
+
+---
+
+## 📬 Contact & Latest Builds
+
+For the **most up-to-date** patched `libstartup.so` for Meta Business Suite, reach out directly:
+
+[![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
+
+---
+
+## 🏷️ Tags
+
+`meta business suite ssl pinning bypass` · `meta business suite certificate pinning` · `meta business suite mitm` · `meta business suite traffic interception` · `meta business suite burp suite` · `facebook pages app proxy android` · `meta business suite https decrypt` · `meta business suite security` · `android ssl bypass no root` · `libstartup.so patch` · `meta business suite api reverse engineering` · `meta business suite ssl bypass 2025` · `com.facebook.pages.app`
 
 ---
 
