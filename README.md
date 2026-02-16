@@ -35,7 +35,7 @@ This project provides a **patched `libstartup.so`** library for the Meta Busines
 
 | App | Version | Patched Library | Status |
 |-----|---------|-----------------|--------|
-| Meta Business Suite | **539.0.0.47.107** | `libstartup.so` | ✅ Bypassed |
+| Meta Business Suite | **540.0.0.37.107** | `libstartup.so` | ✅ Bypassed |
 
 > For the **latest patched `libstartup.so`**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
