@@ -25,9 +25,10 @@ This project provides a **patched `libstartup.so`** library for the Meta Busines
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Meta Business Suite SSL Pinning Bypass - Traffic Interception Screenshot" src="https://github.com/user-attachments/assets/583f8714-7a4d-4eb1-946f-1d5c33ae91ee" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/7f971e4b-b841-4f92-b4a1-2575bdda3dcb" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/d285e3d9-a9bf-46f4-9c55-d1daa746c2be)
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/aa7a590d-bca4-4062-8f0f-93a4376e33e4)
 
 ---
 
@@ -144,25 +145,3 @@ For the **most up-to-date** patched `libstartup.so` for Meta Business Suite, rea
 `meta business suite ssl pinning bypass` · `meta business suite certificate pinning` · `meta business suite mitm` · `meta business suite traffic interception` · `meta business suite burp suite` · `facebook pages app proxy android` · `meta business suite https decrypt` · `meta business suite security` · `android ssl bypass no root` · `libstartup.so patch` · `meta business suite api reverse engineering` · `meta business suite ssl bypass 2025` · `com.facebook.pages.app`
 
 ---
-
-## 💻 Emulator Setup
-- Windows PC with:
-  - **Reqable**, **Burp Suite**, or **Mitmproxy** installed
-  - **Nox** or **LDPlayer** Android emulator
-  - **Root access** enabled in the emulator
-
----
-
-## 🚀 Bypass Procedure
-
-1. Replace patched `libstartup.so with /data/data/com.facebook.pages.app/lib-compressed/libstartup.so`
-2. Replace the patched library file:
-   ```bash
-   adb push D:\patched\libstartup.so /data/data/com.facebook.pages.app/lib-compressed/libstartup.so
-
-3. Use Proxypin / Reqable / Burp Suite / Mitmproxy for capturing traffics.
-
-## For latest patched libstartup.so contract with me.
-<a href="https://t.me/MUH4MM4DSH4KIB" target="_blank">
-  <img src="https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20" alt="Telegram" style="border-radius: 8px;"/>
-</a>
