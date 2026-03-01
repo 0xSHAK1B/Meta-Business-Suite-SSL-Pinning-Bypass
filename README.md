@@ -13,22 +13,15 @@
 
 This project provides a **patched `libstartup.so`** library for the Meta Business Suite Android app with SSL/TLS certificate pinning disabled, enabling security researchers and developers to capture and analyze Meta Business Suite HTTPS traffic using standard MITM proxy tools.
 
-**Key highlights:**
-
-- ✅ Works on rooted and non-rooted Android devices
-- ✅ Compatible with Android emulators (Nox, LDPlayer)
-- ✅ Works with popular proxy tools (Burp Suite, Mitmproxy, Reqable, Proxypin)
-- ✅ **ARM64-v8a** & **x86_64** architecture support
-- ✅ Simple library replacement — no full APK repackaging needed
-
 ---
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/7f971e4b-b841-4f92-b4a1-2575bdda3dcb" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/22650456-72fe-4e09-a27f-48aecdc2f04f" />
 
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/aa7a590d-bca4-4062-8f0f-93a4376e33e4)
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/7dbc9570-4408-49cd-a03d-dfe48819a5d1)
 
 ---
 
@@ -36,7 +29,7 @@ This project provides a **patched `libstartup.so`** library for the Meta Busines
 
 | App | Version | Patched Library | Status |
 |-----|---------|-----------------|--------|
-| Meta Business Suite | **540.0.0.37.107** | `libstartup.so` | ✅ Bypassed |
+| Meta Business Suite | **542.0.0.48.106** | `libstartup.so` | ✅ Bypassed |
 
 > For the **latest patched `libstartup.so`**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
@@ -111,20 +104,6 @@ Open the Meta Business Suite app and start intercepting HTTPS requests and respo
 ```
 
 ---
-
-## ❓ FAQ
-
-**Q: Does this require root access?**
-A: On physical devices, it works on both rooted and non-rooted setups. On emulators, root access is needed to write to the app's private data directory.
-
-**Q: Will this work on iOS?**
-A: No. This bypass targets the Android version of Meta Business Suite only.
-
-**Q: Can I use this with Burp Suite?**
-A: Yes. Configure Burp Suite as a proxy, install the Burp CA certificate on your device/emulator, push the patched library, and launch Meta Business Suite.
-
-**Q: Do I need to repackage or re-sign the APK?**
-A: No. This method replaces only the native `.so` library — no APK modification or re-signing required.
 
 
 **Q: The patched version doesn't match the latest Meta Business Suite release — what do I do?**
