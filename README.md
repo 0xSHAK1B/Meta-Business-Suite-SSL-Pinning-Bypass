@@ -9,7 +9,6 @@
 
 ---
 
-
 ## 📖 Overview
 
 This project provides a **patched `libstartup.so`** library for the Meta Business Suite Android app with SSL/TLS certificate pinning disabled, enabling security researchers and developers to capture and analyze Meta Business Suite HTTPS traffic using standard MITM proxy tools.
