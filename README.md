@@ -17,12 +17,12 @@ This project provides a **patched `libstartup.so`** library for the Meta Busines
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/6502a832-46d3-426b-87c5-ead655e029e0" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/50431816-3943-4386-919a-849427a1a89b" />
 
 
 
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/96f59599-036e-4fc8-abf5-4210fee78c9b)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/24d60ba0-95f2-4cc7-90df-0741c8c6f15b)
 
 ---
 
@@ -30,7 +30,7 @@ This project provides a **patched `libstartup.so`** library for the Meta Busines
 
 | App | Version | Patched Library | Status |
 |-----|---------|-----------------|--------|
-| Meta Business Suite | **543.0.0.46.107** | `libstartup.so` | ✅ Bypassed |
+| Meta Business Suite | **544.0.0.28.108** | `libstartup.so` | ✅ Bypassed |
 
 > For the **latest patched `libstartup.so`**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
