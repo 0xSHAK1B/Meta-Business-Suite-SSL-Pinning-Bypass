@@ -6,7 +6,7 @@ x-fb-request-analytics-tags: {"network_tags":{"product":"121876164619130","reque
 
 x-fb-connection-type: dummy
 
-app-scope-id-header: 365a8e98-5bee-4183-9bb9-de51038321a0
+app-scope-id-header: a0353e72-a5cc-4265-8cdb-b6ba97a8ac3e
 
 x-zero-state: unknown
 
@@ -24,11 +24,11 @@ x-graphql-request-purpose: fetch
 
 x-tigon-is-retry: False
 
-x-zero-f-device-id: 365a8e98-5bee-4183-9bb9-de51038321a0
+x-zero-f-device-id: 04b8127f-d723-4e40-9bd3-ca37690bca0b
 
-x-fb-friendly-name: com.bloks.www.bloks.caa.login.async.send_login_request
+x-fb-friendly-name: com.bloks.www.bloks.caa.login.async.empty_input
 
-user-agent: [FBAN/PAAA;FBAV/543.0.0.46.107;FBDM/{density=1.7125,width=720,height=1558};FBLC/en_US;FBBV/896471206;FB_FW/2;FBSN/Android;FBDI/365a8e98-5bee-4183-9bb9-de51038321a0;FBCR/TelKila;FBMF/Google;FBBD/Google;FBDV/Pixel;FBSV/10;FBCA/arm64-v8a:null;]
+user-agent: [FBAN/PAAA;FBAV/544.0.0.28.108;FBDM/{density=1.7125,width=720,height=1558};FBLC/en_US;FBBV/902102181;FB_FW/2;FBSN/Android;FBDI/04b8127f-d723-4e40-9bd3-ca37690bca0b;FBCR/TelKila;FBMF/Google;FBBD/Google;FBDV/Pixel;FBSV/10;FBCA/arm64-v8a:null;]
 
 x-zero-eh: 664c0faaac849cb891d0a261fbb72a12
 
@@ -42,4 +42,4 @@ x-fb-client-ip: True
 
 x-fb-server-cluster: True
 
-x-fb-conn-uuid-client: fdd91a4b40e3de0638d848d14494b7b2
+x-fb-conn-uuid-client: 2Y7UP1QVxPQGKFkNaR73Pg==
