@@ -13,26 +13,13 @@
 
 This project provides two bypass methods for Meta Business Suite's SSL/TLS certificate pinning on Android, enabling security researchers and developers to capture and analyze Meta Business Suite HTTPS traffic using standard MITM proxy tools. Inspect API endpoints, Facebook Page management calls, Instagram business account integrations, ad performance data, audience insights, and authentication flows.
 
-| Architecture | Bypass Method |
-|---|---|
-| `arm64-v8a` | Pre-patched APK |
-| `x86_64` | Patched `libstartup.so` replacement |
-
-**Key highlights:**
-
-- ✅ ARM64 — No root required, just install the patched APK
-- ✅ x86_64 — Simple library replacement for emulator setups
-- ✅ Compatible with Android emulators (Nox, LDPlayer, BlueStacks)
-- ✅ Works with popular proxy tools (Burp Suite, Mitmproxy, Reqable, Proxypin)
-- ✅ Full app functionality preserved — manage pages, view insights, and schedule posts normally
-
 ---
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Meta Business Suite SSL Pinning Bypass - Traffic Interception Screenshot" src="https://github.com/user-attachments/assets/cfa1662e-e6b1-412e-8e60-416e226e1df9" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/85bc231c-23c1-4c41-b122-90ce8f506ac0" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/5aa4c89d-6e5b-488e-8856-f8a9a895c0da)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/882a24bb-1867-4a6d-862a-c32545d19974)
 
 ---
 
@@ -40,7 +27,7 @@ This project provides two bypass methods for Meta Business Suite's SSL/TLS certi
 
 | App | Package | Version | Patched Library | Status |
 |-----|---------|---------|-----------------|--------|
-| Meta Business Suite | `com.facebook.pages.app` | **545.0.0.58.109** | `libstartup.so` | ✅ Bypassed |
+| Meta Business Suite | `com.facebook.pages.app` | **546.0.0.56.106** | `libstartup.so` | ✅ Bypassed |
 
 > For the **latest bypassed APK or patched library**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
@@ -126,19 +113,6 @@ Open the Meta Business Suite app and start intercepting HTTPS requests and respo
 
 ---
 
-**What you can inspect:**
-
-- **Page management** — API calls for creating, editing, and managing Facebook Pages
-- **Instagram business** — Cross-platform API requests linking Instagram business accounts
-- **Ad insights** — Campaign performance data, audience analytics, and ad spend endpoints
-- **Post scheduling** — Content scheduling pipeline, draft management, and publishing flows
-- **Inbox & messaging** — Unified inbox API, customer message routing, and automated responses
-- **GraphQL queries** — Structured API calls for page data, insights, and business account info
-- **Audience insights** — Demographic and engagement data fetching mechanisms
-- **Authentication** — Login flows, business account token management, and session handling
-- **Notifications** — Push notification delivery and engagement alert endpoints
-
----
 
 
 ## 📬 Contact & Latest Builds
