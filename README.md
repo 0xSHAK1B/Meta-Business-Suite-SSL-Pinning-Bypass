@@ -17,9 +17,9 @@ This project provides two bypass methods for Meta Business Suite's SSL/TLS certi
 
 ## 🎥 Proof of Concept
 
-<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/85bc231c-23c1-4c41-b122-90ce8f506ac0" />
+<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/944ee41d-5c0c-45bb-b059-69135f68f358" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/882a24bb-1867-4a6d-862a-c32545d19974)
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/dc379f06-2d72-4aaf-8462-75ef702c6467)
 
 ---
 
@@ -27,7 +27,7 @@ This project provides two bypass methods for Meta Business Suite's SSL/TLS certi
 
 | App | Package | Version | Patched Library | Status |
 |-----|---------|---------|-----------------|--------|
-| Meta Business Suite | `com.facebook.pages.app` | **546.0.0.56.106** | `libstartup.so` | ✅ Bypassed |
+| Meta Business Suite | `com.facebook.pages.app` | **548.0.0.74.107** | `libstartup.so` | ✅ Bypassed |
 
 > For the **latest bypassed APK or patched library**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
