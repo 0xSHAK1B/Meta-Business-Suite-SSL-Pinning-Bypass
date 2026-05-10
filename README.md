@@ -12,9 +12,11 @@
 
 ## Proof of Concept
 
-<img width="720" height="1640" alt="Meta Business Suite SSL Pinning Bypass PoC – Intercepted HTTPS Traffic" src="https://github.com/user-attachments/assets/243087d0-ac36-4c24-bd68-a807a3de8bea" />
+<<img width="720" height="1640" alt="Image" src="https://github.com/user-attachments/assets/2159b039-2dc3-4af3-9c4a-d43d366806af" />
 
-▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/dd524d2c-9a28-47a4-b3c7-48af77e2d387)
+
+
+▶️ [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/567dc140-b349-429e-9720-c208d06f77fd)
 
 ---
 
@@ -22,8 +24,8 @@
 
 | App | Package | Version | Architecture | Status |
 |-----|---------|---------|--------------|--------|
-| Meta Business Suite | `com.facebook.pages.app` | **551.0.0.55.106** | `arm64-v8a` | ✅ Bypassed |
-| Meta Business Suite | `com.facebook.pages.app` | **551.0.0.55.106** | `x86_64` | ✅ Bypassed |
+| Meta Business Suite | `com.facebook.pages.app` | **552.0.0.59.107** | `arm64-v8a` | ✅ Bypassed |
+| Meta Business Suite | `com.facebook.pages.app` | **552.0.0.59.107** | `x86_64` | ✅ Bypassed |
 
 > For the **latest patched APK**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
