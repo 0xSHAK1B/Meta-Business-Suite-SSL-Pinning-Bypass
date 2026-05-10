@@ -10,7 +10,7 @@ authorization: OAuth 121876164619130|1ab2c5c902faedd339c14b2d58e929dc
 
 x-fb-connection-type: dummy
 
-app-scope-id-header: ec275832-bc3a-4d9c-98aa-3017524ce92f
+app-scope-id-header: 8e5f3491-da6a-4e6e-8428-c4ad0662b423
 
 x-fb-sim-hni: 47007
 
@@ -22,9 +22,11 @@ content-type: application/x-www-form-urlencoded
 
 x-graphql-client-library: graphservice
 
-user-agent: [FBAN/PAAA;FBAV/551.0.0.55.106;FBDM/{density=1.7125,width=720,height=1505};FBLC/en_US;FBBV/955656481;FB_FW/2;FBSN/Android;FBDI/null;FBCR/Airtel;FBMF/Symphony;FBBD/Symphony;FBDV/Z35;FBSV/11;FBCA/arm64-v8a:null;]
+user-agent: [FBAN/PAAA;FBAV/552.0.0.59.107;FBDM/{density=1.7125,width=720,height=1505};FBLC/en_US;FBBV/962140016;FB_FW/2;FBSN/Android;FBDI/8e5f3491-da6a-4e6e-8428-c4ad0662b423;FBCR/Airtel;FBMF/Symphony;FBBD/Symphony;FBDV/Z35;FBSV/11;FBCA/arm64-v8a:null;]
 
-x-fb-friendly-name: AutofillFetchContactDataMultipleEntriesQuery
+x-zero-f-device-id: 8e5f3491-da6a-4e6e-8428-c4ad0662b423
+
+x-fb-friendly-name: AutofillFetchSettingsQuery
 
 x-tigon-is-retry: False
 
@@ -36,5 +38,4 @@ x-fb-client-ip: True
 
 x-fb-server-cluster: True
 
-x-fb-conn-uuid-client: p7jcBP+rhU6txOG77OyXBQ==
-
+x-fb-conn-uuid-client: A6oUDcH1f+bwavduQJzUqg==
