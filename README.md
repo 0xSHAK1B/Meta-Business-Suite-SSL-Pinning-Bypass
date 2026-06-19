@@ -4,7 +4,7 @@
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![ARM64](https://img.shields.io/badge/ARM64--v8a-Supported-blue?style=for-the-badge)
 ![x86_64](https://img.shields.io/badge/x86__64-Supported-blue?style=for-the-badge)
-![Last Updated](https://img.shields.io/badge/Updated-May_2026-brightgreen?style=for-the-badge)
+
 
 > **Bypass Meta Business Suite's SSL/TLS certificate pinning on Android** to intercept, capture, and analyze HTTPS network traffic using proxy tools like Burp Suite, mitmproxy, Reqable, or Proxypin — works on both **rooted** and **non-rooted** devices. Working as of **2026**.
 
