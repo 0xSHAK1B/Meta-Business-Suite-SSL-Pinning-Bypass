@@ -12,7 +12,7 @@
 
 ## Proof of Concept
 
-<img width="1080" height="2392" alt="Image" src="https://github.com/user-attachments/assets/029bb18f-c352-4a9d-b9db-99cf5db9ce93" />
+<img width="1047" height="501" alt="Image" src="https://github.com/user-attachments/assets/13dfd3aa-acda-4232-83d3-92785a721a4d" />
 
 ---
 
@@ -20,8 +20,8 @@
 
 | App | Package | Version | Architecture | Status |
 |-----|---------|---------|--------------|--------|
-| Meta Business Suite | `com.facebook.pages.app` | **557.0.0.48.108** | `arm64-v8a` | ✅ Bypassed |
-| Meta Business Suite | `com.facebook.pages.app` | **557.0.0.48.108** | `x86_64` | ✅ Bypassed |
+| Meta Business Suite | `com.facebook.pages.app` | **558.0.0.48.106** | `arm64-v8a` | ✅ Bypassed |
+| Meta Business Suite | `com.facebook.pages.app` | **558.0.0.48.106** | `x86_64` | ✅ Bypassed |
 
 > For the **latest patched APK**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
