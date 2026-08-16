@@ -1,109 +1,129 @@
-# Meta Business Suite SSL Pinning Bypass 2026 – Intercept HTTPS Traffic on Android (Root & No Root)
+<div align="center">
 
-[![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
-![ARM64](https://img.shields.io/badge/ARM64--v8a-Supported-blue?style=for-the-badge)
-![x86_64](https://img.shields.io/badge/x86__64-Supported-blue?style=for-the-badge)
+# 🔓 Meta Business Suite Android SSL Pinning Bypass
 
+**Intercept, capture & analyze Meta Business Suite HTTPS traffic on Android — no root required**
 
-> **Bypass Meta Business Suite's SSL/TLS certificate pinning on Android** to intercept, capture, and analyze HTTPS network traffic using proxy tools like Burp Suite, mitmproxy, Reqable, or Proxypin — works on both **rooted** and **non-rooted** devices. Working as of **2026**.
+[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v566.0.0)-0668E1?style=for-the-badge&logo=meta&logoColor=white)](../../releases/latest) &nbsp; [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
 
----
+![Android](https://img.shields.io/badge/Android_10--14+-3DDC84?style=flat-square&logo=android&logoColor=white)
+![ARM64](https://img.shields.io/badge/arm64--v8a-blue?style=flat-square)
+![Version](https://img.shields.io/badge/Meta_Business_Suite-v566.0.0.45.105-0668E1?style=flat-square&logo=meta&logoColor=white)
+![Root](https://img.shields.io/badge/Root-Not_Required-brightgreen?style=flat-square)
 
-## Proof of Concept
+<img width="578" height="1280" alt="Meta Business Suite Android SSL Pinning Bypass PoC – Traffic Captured" src="https://github.com/user-attachments/assets/af3d223c-2097-4275-a53d-d7496ab1b897" />
 
-<img width="1080" height="2392" alt="Image" src="https://github.com/user-attachments/assets/061a8771-68db-4896-baa2-bdf3f9c394e1" />
+*Live capture — Meta Business Suite Android HTTPS traffic intercepted in cleartext, v566.0.0.45.105.*
 
+</div>
 
-
-📸 [**Watch the Full Video Demonstration**](https://github.com/user-attachments/assets/8830db2b-8261-4b87-9e36-6bfa62d10967)
-
----
-
-## Supported Meta Business Suite Version
-
-| App | Package | Version | Architecture | Status |
-|-----|---------|---------|--------------|--------|
-| Meta Business Suite | `com.facebook.pages.app` | **563.0.0.50.106** | `arm64-v8a` | ✅ Bypassed |
-| Meta Business Suite | `com.facebook.pages.app` | **563.0.0.50.106** | `x86_64` | ✅ Bypassed |
-
-> For the **latest patched APK**, [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
+> **Bypass SSL/TLS certificate pinning** in Meta Business Suite for Android and pipe the full HTTPS stream — login, Ads Manager, and unified inbox flows — into **Burp Suite · mitmproxy · Reqable · Proxypin.** Tap a section below to expand.
 
 ---
 
-## Requirements
+<details open>
+<summary><b>📦 Supported version</b></summary>
 
-### Option A: Physical Android Device (No Root Required)
+<br>
 
-- Android phone or tablet running **Android 7.0+**
-- MITM proxy tool installed on the same device or on your local network:
-  - [**Reqable**](https://reqable.com) — modern UI, excellent mobile support
-  - [**Proxypin**](https://proxypin.com) — free, lightweight, no-root option
+| App | Package | Version | ABI | Status |
+|-----|---------|:-------:|:---:|:------:|
+| Meta Business Suite for Android | `com.facebook.pages.app` | **566.0.0.45.105** | `arm64-v8a` | ✅ [**Download**](../../releases/latest) |
 
-### Option B: Android Emulator on PC
+The patched APK lives in the [**Releases**](../../releases/latest) section. Need the newest build or another version? [Message me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
-- Windows, macOS, or Linux PC with an Android emulator:
-  - [**Nox Player**](https://www.bignox.com/) — popular Android emulator with root toggle
-  - [**LDPlayer**](https://www.ldplayer.net/) — fast Android emulator optimized for performance
-  - [**BlueStacks**](https://www.bluestacks.com/) — widely used Android emulator
-- Desktop MITM proxy tool:
-  - [**Burp Suite**](https://portswigger.net/burp) — industry-standard web security testing proxy
-  - [**mitmproxy**](https://mitmproxy.org/) — open-source, scriptable HTTPS proxy
-  - [**Reqable**](https://reqable.com) — cross-platform HTTP debugging proxy
-  - [**Proxypin**](https://proxypin.com) — lightweight proxy with mobile support
+</details>
+
+<details>
+<summary><b>🎯 What you can capture</b></summary>
+
+<br>
+
+- **Login & authentication** — Meta business account auth and access tokens
+- **Pages & business management** — page data, roles, and business-asset endpoints
+- **Ads Manager** — campaign, ad-set, and creative payloads; ad-account data
+- **Insights & analytics** — reach, engagement, and performance metrics
+- **Unified inbox** — Messenger + Instagram Direct + comment sync
+- **Content scheduling** — scheduled posts and publishing endpoints
+- **GraphQL** — `graph.facebook.com` business queries and telemetry
+
+</details>
+
+<details>
+<summary><b>⚙️ Requirements</b></summary>
+
+<br>
+
+**Android device — Android 10, 11, 12, 13, 14+.** No root required (rooted devices supported too); ARM device (`arm64-v8a`), which covers virtually all modern phones and tablets.
+
+**Emulator (PC):** Nox / LDPlayer / MEmu / BlueStacks — enable **ARM translation**, since this build ships `arm64` native libraries and x86/x86_64 emulators need the translation layer.
+
+**Proxy tool** — [Burp Suite](https://portswigger.net/burp) · [mitmproxy](https://mitmproxy.org/) · [Reqable](https://reqable.com) · [Proxypin](https://proxypin.com)
+
+</details>
+
+<details>
+<summary><b>🚀 How to bypass — step by step</b></summary>
+
+<br>
+
+1. Uninstall the official Meta Business Suite app (signatures conflict).
+2. Download the patched APK from [**Releases**](../../releases/latest) and install it on your device or emulator.
+3. Install and trust your proxy's CA certificate: **Settings → Security → Encryption & credentials → Install a certificate → CA certificate**.
+4. Set the Wi-Fi proxy: **Settings → Wi-Fi → (network) → Proxy → Manual** → your PC's IP and port.
+5. Launch Meta Business Suite — decrypted HTTPS streams into your proxy in real time.
+
+> Force-stop and relaunch the app if traffic doesn't appear immediately.
+
+</details>
+
+<details>
+<summary><b>💼 Need a custom bypass?</b></summary>
+
+<br>
+
+Custom SSL pinning bypass · automated patching scripts · full reverse-engineering projects — for any Android or iOS app. [**Message me on Telegram →**](https://t.me/MUH4MM4DSH4KIB)
+
+</details>
+
+<details>
+<summary><b>⚠️ Disclaimer</b></summary>
+
+<br>
+
+For **educational and security-research purposes only**. Not affiliated with, endorsed by, or connected to Meta or its subsidiaries. All trademarks belong to their respective owners. You are responsible for complying with your local laws and the app's Terms of Service, and should only analyze traffic on accounts and devices you own or are authorized to test. Provided "as is", without warranty of any kind.
+
+</details>
+
+<details>
+<summary><b>🔗 Related projects</b></summary>
+
+<br>
+
+| App | Platform | Repository |
+|-----|----------|------------|
+| Facebook | Android | [Facebook SSL Pinning Bypass](https://github.com/0xSHAK1B/Facebook-SSL-Pinning-Bypass) |
+| Instagram | Android | [Instagram SSL Pinning Bypass](https://github.com/0xSHAK1B/Instagram-SSL-Pinning-Bypass) |
+| Threads | Android | [Threads SSL Pinning Bypass](https://github.com/0xSHAK1B/Threads-SSL-Pinning-Bypass) |
+| Messenger | Android | [Messenger SSL Pinning Bypass](https://github.com/0xSHAK1B/Messenger-SSL-Pinning-Bypass) |
+| Facebook | iOS | [Facebook iOS SSL Pinning Bypass](https://github.com/0xSHAK1B/Facebook-iOS-SSL-Pinning-Bypass) |
+| TikTok | Android | [TikTok SSL Pinning Bypass](https://github.com/0xSHAK1B/TIKTOK-SSL-Pinning-Bypass) |
+
+</details>
 
 ---
 
-## How to Bypass Meta Business Suite SSL Pinning (Step-by-Step)
+<div align="center">
 
-### Step 1: Download the Patched APK
+### 💖 Support This Project
 
-Download the SSL pinning bypassed Meta Business Suite APK. For the **latest patched APK** (v551.0.0.55.106), [contact me on Telegram](https://t.me/MUH4MM4DSH4KIB).
+Please **⭐ star the repo** — it helps others find it and keeps the builds coming.
 
-Choose the correct architecture for your device:
-- **`arm64-v8a`** — Most modern Android phones and tablets
-- **`x86_64`** — Android emulators (Nox Player, LDPlayer, BlueStacks, etc.)
+| Currency | Address |
+|:---------|:--------|
+| **BTC / ETH** | `0xea9a566a5123c3a1b8d60f8bdd845835716668f0` |
+| **USDT (TRC-20)** | `THssAZhUQEEsw15211rAaRLGRjSWXMX4PW` |
 
-### Step 2: Install the Patched Meta Business Suite APK
+[![Telegram](https://img.shields.io/badge/@MUH4MM4DSH4KIB-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
 
-- **Uninstall** the official Meta Business Suite app if already installed (signatures will conflict)
-- **Enable** "Install from Unknown Sources" in your Android settings
-- **Install** the downloaded patched APK
-
-### Step 3: Configure Your MITM Proxy
-
-1. Open your proxy tool (Burp Suite, mitmproxy, Reqable, or Proxypin)
-2. **Export** the proxy's CA certificate
-3. **Install and trust** the CA certificate on your Android device:
-   - Go to **Settings → Security → Install certificates from storage**
-   - On Android 11+, you may need to move the cert to the system trust store (root required) or use your proxy tool's built-in certificate installer
-4. **Configure** your device's Wi-Fi proxy settings to point to the proxy
-
-### Step 4: Capture Meta Business Suite HTTPS Traffic
-
-1. Launch the patched **Meta Business Suite** app
-2. Browse Pages, check ad insights, manage Instagram business accounts, or interact normally
-3. Watch **decrypted HTTPS requests and responses** appear in your proxy tool in real time
-
-> **Tip:** Make sure to install and trust the proxy's CA certificate on your device for full HTTPS decryption.
-
----
-
-
-
-## Related Projects
-
-- [**Facebook SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Intercept Facebook HTTPS traffic on Android
-- [**Instagram SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Capture Instagram API requests and responses
-- [**Threads SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Bypass Threads certificate pinning
-- [**Messenger SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Decrypt Messenger HTTPS traffic on Android
-- [**TikTok SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Bypass TikTok BoringSSL certificate pinning
-- [**Snapchat SSL Pinning Bypass**](https://github.com/0xSHAK1B) — Decrypt Snapchat HTTPS traffic on Android
-
----
-
-## Contact & Latest Builds
-
-For the **most up-to-date** SSL pinning bypassed Meta Business Suite APK and support:
-
-[![Telegram](https://img.shields.io/badge/💬_Chat_on_Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&labelColor=121212&color=26A5E4&logoWidth=20)](https://t.me/MUH4MM4DSH4KIB)
+</div>
