@@ -4,16 +4,16 @@
 
 **Intercept, capture & analyze Meta Business Suite HTTPS traffic on Android — no root required**
 
-[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v566.0.0)-0668E1?style=for-the-badge&logo=meta&logoColor=white)](../../releases/latest) &nbsp; [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
+[![Download APK](https://img.shields.io/badge/⬇_Download_APK_(v570.0.0.43.105)-0668E1?style=for-the-badge&logo=meta&logoColor=white)](../../releases/latest) &nbsp; [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/MUH4MM4DSH4KIB)
 
 ![Android](https://img.shields.io/badge/Android_10--14+-3DDC84?style=flat-square&logo=android&logoColor=white)
 ![ARM64](https://img.shields.io/badge/arm64--v8a-blue?style=flat-square)
-![Version](https://img.shields.io/badge/Meta_Business_Suite-v566.0.0.45.105-0668E1?style=flat-square&logo=meta&logoColor=white)
+![Version](https://img.shields.io/badge/Meta_Business_Suite-v570.0.0.43.105-0668E1?style=flat-square&logo=meta&logoColor=white)
 ![Root](https://img.shields.io/badge/Root-Not_Required-brightgreen?style=flat-square)
 
-<img width="578" height="1280" alt="Meta Business Suite Android SSL Pinning Bypass PoC – Traffic Captured" src="https://github.com/user-attachments/assets/af3d223c-2097-4275-a53d-d7496ab1b897" />
+<img width="578" height="1280" alt="Image" src="https://github.com/user-attachments/assets/0e1a588a-05c2-4fa4-bf45-c7f1845d0bb5" />
 
-*Live capture — Meta Business Suite Android HTTPS traffic intercepted in cleartext, v566.0.0.45.105.*
+*Live capture — Meta Business Suite Android HTTPS traffic intercepted in cleartext, v570.0.0.43.105.*
 
 </div>
 
@@ -28,7 +28,7 @@
 
 | App | Package | Version | ABI | Status |
 |-----|---------|:-------:|:---:|:------:|
-| Meta Business Suite for Android | `com.facebook.pages.app` | **566.0.0.45.105** | `arm64-v8a` | ✅ [**Download**](../../releases/latest) |
+| Meta Business Suite for Android | `com.facebook.pages.app` | **570.0.0.43.105** | `arm64-v8a` | ✅ [**Download**](../../releases/latest) |
 
 The patched APK lives in the [**Releases**](../../releases/latest) section. Need the newest build or another version? [Message me on Telegram](https://t.me/MUH4MM4DSH4KIB).
 
